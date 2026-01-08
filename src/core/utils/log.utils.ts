@@ -16,6 +16,9 @@ const PALETTES = [
 	['#da7a7a', '#7e1212'],
 ];
 
+/**
+ * Utility class for logging messages with colored prefixes and different log levels.
+ */
 export class LogUtils {
 	private static tick = 0;
 	
