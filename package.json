@@ -1,6 +1,6 @@
 {
   "name": "@swerr/core",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Models and Utils for Swerr",
   "type": "module",
   "main": "dist/index.js",

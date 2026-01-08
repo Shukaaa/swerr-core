@@ -1,3 +1,5 @@
+import {SwerrScheme} from "./swerr-scheme.js";
+
 /**
  * SwerrConfig interface defines the configuration structure for the Swerr tool.
  */
@@ -30,4 +32,4 @@ export interface ConverterConfig<CFG> {
 	config: CFG;
 }
 
-export type ConverterFn<CFG> = (config: CFG) => Promise<void>;
+export type ConverterFn<CFG> = (config: CFG, scheme: SwerrScheme) => Promise<void>;
