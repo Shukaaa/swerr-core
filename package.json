@@ -1,0 +1,37 @@
+{
+  "name": "@swerr/core",
+  "version": "0.0.1",
+  "description": "Models and Utils for Swerr",
+  "type": "module",
+  "main": "dist/index.js",
+  "repository": "https://github.com/Shukaaa/swerr-core",
+  "exports": {
+    ".": {
+      "default": "./dist/index.js",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "Shukaaa",
+  "license": "ISC",
+  "dependencies": {
+    "gradient-string": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.2",
+    "typescript": "^5.9.2"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
