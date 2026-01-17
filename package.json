@@ -1,6 +1,6 @@
 {
   "name": "@swerr/core",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Models and Utils for Swerr",
   "type": "module",
   "main": "dist/index.js",
@@ -16,7 +16,9 @@
     "build": "tsc",
     "watch": "tsc --watch"
   },
-  "keywords": [],
+  "keywords": [
+    "swerr"
+  ],
   "author": "Shukaaa",
   "license": "ISC",
   "dependencies": {
