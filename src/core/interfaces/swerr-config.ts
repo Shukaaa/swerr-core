@@ -5,7 +5,7 @@ import {SwerrScheme} from "./swerr-scheme.js";
  */
 export interface SwerrConfig {
 	sourceFile: {
-		inputDir?: string;
+		inputDirs?: string[];
 		meta?: {
 			projectName?: string;
 			version?: string;
